@@ -1,17 +1,17 @@
 :root {
-  --bg: #071b20;
-  --bg-alt: #0d2a2d;
-  --panel: rgba(15, 30, 33, 0.82);
-  --panel-strong: #102a2e;
-  --surface: #123338;
-  --surface-2: #1a4248;
-  --text: #edf6f8;
-  --muted: #b3c7ca;
-  --line: rgba(152, 194, 199, 0.18);
-  --primary: #8cc7d8;
-  --primary-strong: #9fd7e7;
+  --bg: #051a10;
+  --bg-alt: #0a2a1a;
+  --panel: rgba(12, 36, 24, 0.82);
+  --panel-strong: #0f3022;
+  --surface: #133a28;
+  --surface-2: #1a4a33;
+  --text: #ecf6ef;
+  --muted: #b6cebe;
+  --line: rgba(140, 200, 165, 0.18);
+  --primary: #7fd1a0;
+  --primary-strong: #9ee0b6;
   --accent: #d4a854;
-  --shadow: 0 30px 80px rgba(3, 12, 14, 0.5);
+  --shadow: 0 30px 80px rgba(3, 14, 8, 0.5);
   --radius: 24px;
   --container: min(1120px, calc(100% - 2rem));
 }
@@ -28,7 +28,7 @@ body {
   margin: 0;
   font-family: "Inter", "Segoe UI", sans-serif;
   background:
-    radial-gradient(circle at top left, rgba(140, 199, 216, 0.14), transparent 30%),
+    radial-gradient(circle at top left, rgba(127, 209, 160, 0.14), transparent 30%),
     radial-gradient(circle at bottom right, rgba(212, 168, 84, 0.1), transparent 28%),
     var(--bg);
   color: var(--text);
@@ -63,7 +63,7 @@ button {
   top: 0;
   z-index: 20;
   backdrop-filter: blur(18px);
-  background: rgba(7, 27, 32, 0.72);
+  background: rgba(5, 26, 16, 0.72);
   border-bottom: 1px solid rgba(155, 178, 214, 0.08);
 }
 
